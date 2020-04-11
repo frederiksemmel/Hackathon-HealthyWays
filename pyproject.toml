@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "HealthyWays"
+version = "0.1.0"
+description = ""
+authors = ["Frederik Semmel <frederiksemmel@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+tensorflow = {version = "2.2.0rc2", allow-prereleases = true}
+googlemaps = "^4.2.0"
+fuzzywuzzy = "^0.18.0"
+python-Levenshtein = "^0.12.0"
+pandas = "^1.0.3"
+numpy = "^1.18.2"
+scipy = "^1.4.1"
+sklearn = "^0.0"
+seaborn = "^0.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
